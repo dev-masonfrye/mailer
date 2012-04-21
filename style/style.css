@@ -207,13 +207,13 @@ header {
 	animation-delay: 4s;
 	opacity: 1;
 	-moz-transition: opacity 0s;
-	-moz-transition-delay: 4.38s;
+	-moz-transition-delay: 4.4s;
 	-webkit-transition: opacity 0s;
-	-webkit-transition-delay: 4.38s;
+	-webkit-transition-delay: 4.4s;
 	-ms-transition: opacity 0s;
-	-ms-transition-delay: 4.38s;
+	-ms-transition-delay: 4.4s;
 	-o-transition: opacity 0s;
-	-o-transition-delay: 4.38s;
+	-o-transition-delay: 4.4s;
 	transition: opacity 0s;
-	transition-delay: 4.38s;
+	transition-delay: 4.4s;
 }
