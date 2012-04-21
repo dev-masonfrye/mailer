@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f2f2f2;
+	color: #444;
+	font-family: "Droid Serif", Georgia, serif;
+	text-align: center;
+	padding-top: 3em;
+	background: url("../images/pattern.jpg");
+	text-shadow: 0 1px #fff;
+}
+
+::-moz-selection {
+	background: #fff;
+	color: #666;
+	text-shadow: none !important;
+}
+
+::selection {
+	background: #fff;
+	color: #666;
+	text-shadow: none !important;
+}
+
+header img {
+	width: 30%;
+	max-width: 100px;
+}
+
+#main {
+	opacity: 0;
+}
+
+#main img {
+	background: #f7f7f7;
+	padding: 10px;
+	border: solid 1px #ddd;
+	margin: 2.5% 0 3%;
+	width: 65%;
+	max-width: 300px;
+}
+
+h1, h2 {
+	font-weight: normal;
+	margin-bottom: 1%;
+}
+
+h2 {
+	color: #ccc;
+	font-size: 24px;
+}
+
+footer {
+	opacity: 0;
+	margin-top: 5%;
+}
+
+/* ===== ANIMATIONS ===== 
+	 ====================== */
+@-moz-keyframes fadeInUp {
+	0% 		{opacity: 0; -moz-transform: translateY(20px);}
+	100% 	{opacity: 1; -moz-transform: translateY(0);}
+}
+
+@-webkit-keyframes fadeInUp {
+	0% 		{opacity: 0; -webkit-transform: translateY(20px);}
+	100% 	{opacity: 1; -webkit-transform: translateY(0);}
+}
+
+@-ms-keyframes fadeInUp {
+	0% 		{opacity: 0; -ms-transform: translateY(20px);}
+	100% 	{opacity: 1; -ms-transform: translateY(0);}
+}
+
+@-o-keyframes fadeInUp {
+	0% 		{opacity: 0; -o-transform: translateY(20px);}
+	100% 	{opacity: 1; -o-transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+	0% 		{opacity: 0; transform: translateY(20px);}
+	100% 	{opacity: 1; transform: translateY(0);}
+} 
+
+header {
+	-moz-animation: fadeInUp 1s;
+	-webkit-animation: fadeInUp 1s;
+	-ms-animation-name: fadeInUp 1s;
+	-o-animation-name: fadeInUp 1s;
+	animation: fadeInUp 1s;
+}
+
+@-moz-keyframes fadeInUp_Big {
+	0% 		{opacity: 0; -moz-transform: translateY(100px);}
+	100% 	{opacity: 1; -moz-transform: translateY(0);}
+}
+
+@-webkit-keyframes fadeInUp_Big {
+	0% 		{opacity: 0; -webkit-transform: translateY(100px);}
+	100% 	{opacity: 1; -webkit-transform: translateY(0);}
+}
+
+@-ms-keyframes fadeInUp_Big {
+	0% 		{opacity: 0; -ms-transform: translateY(100px);}
+	100% 	{opacity: 1; -ms-transform: translateY(0);}
+}
+
+@-o-keyframes fadeInUp_Big {
+	0% 		{opacity: 0; -o-transform: translateY(100px);}
+	100% 	{opacity: 1; -o-transform: translateY(0);}
+}
+
+@keyframes fadeInUp_Big {
+	0% 		{opacity: 0; transform: translateY(100px);}
+	100% 	{opacity: 1; transform: translateY(0);}
+} 
+
+.loaded #main {
+	-moz-animation: fadeInUp_Big 1s;
+	-moz-animation-delay: 1s;
+	-webkit-animation: fadeInUp_Big 1s;
+	-webkit-animation-delay: 1s;
+	-ms-animation-name: fadeInUp_Big 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-name: fadeInUp_Big 1s;
+	-o-animation-delay: 1s;
+	animation: fadeInUp_Big 1s;
+	animation-delay: 1s;
+	opacity: 1;
+	-moz-transition: opacity 0s;
+	-moz-transition-delay: 1s;
+	-webkit-transition: opacity 0s;
+	-webkit-transition-delay: 1s;
+	-ms-transition: opacity 0s;
+	-ms-transition-delay: 1s;
+	-o-transition: opacity 0s;
+	-o-transition-delay: 1s;
+	transition: opacity 0s;
+	transition-delay: 1s;
+}
+
+@-moz-keyframes bounceDown {
+	0% 		{opacity: 0; -moz-transform: translateY(-2000px);}
+	60% 	{opacity: 1; -moz-transform: translateY(10px);}
+	80% 	{-moz-transform: translateY(-20px);}
+	100% 	{-moz-transform: translateY(0);}
+}
+
+@-webkit-keyframes bounceDown {
+	0% 		{opacity: 0; -webkit-transform: translateY(-2000px);}
+	60% 	{opacity: 1; -webkit-transform: translateY(10px);}
+	80% 	{-webkit-transform: translateY(-20px);}
+	100% 	{-webkit-transform: translateY(0);}
+}
+
+@-ms-keyframes bounceDown {
+	0% 		{opacity: 0; -ms-transform: translateY(-2000px);}
+	60% 	{opacity: 1; -ms-transform: translateY(10px);}
+	80% 	{-ms-transform: translateY(-20px);}
+	100% 	{-ms-transform: translateY(0);}
+}
+
+@-o-keyframes bounceDown {
+	0% 		{opacity: 0; -o-transform: translateY(-2000px);}
+	60% 	{opacity: 1; -o-transform: translateY(10px);}
+	80% 	{-o-transform: translateY(-20px);}
+	100% 	{-o-transform: translateY(0);}
+}
+
+@keyframes bounceDown {
+	0% 		{opacity: 0; transform: translateY(-2000px);}
+	60% 	{opacity: 1; transform: translateY(10px);}
+	80% 	{transform: translateY(-20px);}
+	100% 	{transform: translateY(0);}
+}
+
+.loaded footer {
+	-moz-animation: bounceDown 1s;
+	-moz-animation-delay: 4.5s;
+	-webkit-animation: bounceDown 1s;
+	-webkit-animation-delay: 4.5s;
+	-ms-animation-name: bounceDown 1s;
+	-ms-animation-delay: 4.5s;
+	-o-animation-name: bounceDown 1s;
+	-o-animation-delay: 4.5s;
+	animation: bounceDown 1s;
+	animation-delay: 4.5s;
+	opacity: 1;
+	-moz-transition: opacity 0s;
+	-moz-transition-delay: 4.88s;
+}
