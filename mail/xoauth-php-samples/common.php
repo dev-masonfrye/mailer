@@ -13,7 +13,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ */  
 
 $TWO_LEGGED_CONSUMER_KEY = 'rnailer.com ';
 $TWO_LEGGED_CONSUMER_SECRET_HMAC = 'Hd4NSRTCRyhNqgB00pdwJUMv';
@@ -25,7 +25,7 @@ $TWO_LEGGED_EMAIL_ADDRESS = 'alex@sicanstudios.com';
  */
 $THREE_LEGGED_CONSUMER_KEY = 'Hd4NSRTCRyhNqgB00pdwJUMv';
 $THREE_LEGGED_SIGNATURE_METHOD = 'HMAC-SHA1';
-$THREE_LEGGED_CONSUMER_SECRET_HMAC = 'YOUR_CONSUMER_SECRET';
+$THREE_LEGGED_CONSUMER_SECRET_HMAC = 'anonymous';
 
 /** 
  * Alternatively, use the following for RSA, where the
