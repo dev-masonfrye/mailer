@@ -65,15 +65,21 @@ h1, h2 {
 }
 
 h2 {
-	color: #ccc;
+	color: #bbb;
 	font-size: 20px;
 }
 
 footer {
 	font-family: Helvetica, Arial, sans-serif;
 	opacity: 0;
-	margin-top: 3%;
+	margin-top: 4%;
 	padding-bottom: 20px;
+	font-size: 12px;
+	color: #777;
+}
+
+footer a {
+	font-weight: bold;
 }
 
 /* ===== ANIMATIONS ===== 
@@ -197,24 +203,24 @@ header {
 
 .loaded footer {
 	-moz-animation: bounceDown 1s;
-	-moz-animation-delay: 4s;
+	-moz-animation-delay: 3s;
 	-webkit-animation: bounceDown 1s;
-	-webkit-animation-delay: 4s;
+	-webkit-animation-delay: 3s;
 	-ms-animation-name: bounceDown 1s;
-	-ms-animation-delay: 4s;
+	-ms-animation-delay: 3s;
 	-o-animation-name: bounceDown 1s;
-	-o-animation-delay: 4s;
+	-o-animation-delay: 3s;
 	animation: bounceDown 1s;
-	animation-delay: 4s;
+	animation-delay: 3s;
 	opacity: 1;
 	-moz-transition: opacity 0s;
-	-moz-transition-delay: 4.4s;
+	-moz-transition-delay: 3.4s;
 	-webkit-transition: opacity 0s;
-	-webkit-transition-delay: 4.4s;
+	-webkit-transition-delay: 3.4s;
 	-ms-transition: opacity 0s;
-	-ms-transition-delay: 4.4s;
+	-ms-transition-delay: 3.4s;
 	-o-transition: opacity 0s;
-	-o-transition-delay: 4.4s;
+	-o-transition-delay: 3.4s;
 	transition: opacity 0s;
-	transition-delay: 4.4s;
+	transition-delay: 3.4s;
 }
